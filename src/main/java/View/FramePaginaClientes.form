@@ -42,13 +42,12 @@
 
       <Layout>
         <DimensionLayout dim="0">
-          <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="103" groupAlignment="1" attributes="0">
               <Component id="jPanel2" max="32767" attributes="0"/>
               <Group type="102" attributes="0">
-                  <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  <Component id="PanelPagina" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jPanel4" max="32767" attributes="0"/>
-                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -58,7 +57,7 @@
                   <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jPanel3" max="32767" attributes="0"/>
+                      <Component id="PanelPagina" max="32767" attributes="0"/>
                       <Component id="jPanel4" max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -117,7 +116,7 @@
             </Component>
           </SubComponents>
         </Container>
-        <Container class="javax.swing.JPanel" name="jPanel3">
+        <Container class="javax.swing.JPanel" name="PanelPagina">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -127,7 +126,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="385" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="389" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -150,12 +149,11 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="Quejas" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Quejas" alignment="0" pref="127" max="32767" attributes="0"/>
                           <Component id="Visitas" alignment="0" max="32767" attributes="0"/>
                           <Component id="Configuracion" alignment="0" max="32767" attributes="0"/>
                           <Component id="Reservaciones" alignment="0" max="32767" attributes="0"/>
                           <Component id="Notificaciones" max="32767" attributes="0"/>
-                          <Component id="Pagos" alignment="0" max="32767" attributes="0"/>
                           <Component id="Cuenta" max="32767" attributes="0"/>
                           <Component id="PaginaPrincipal" alignment="0" max="32767" attributes="0"/>
                       </Group>
@@ -168,19 +166,17 @@
                       <Component id="PaginaPrincipal" max="32767" attributes="0"/>
                       <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
                       <Component id="Cuenta" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
-                      <Component id="Pagos" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="Notificaciones" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="Reservaciones" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="Visitas" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="Quejas" max="32767" attributes="0"/>
-                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="Configuracion" max="32767" attributes="0"/>
-                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -197,6 +193,9 @@
                 <Property name="text" type="java.lang.String" value="PaginaPrincipal"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PaginaPrincipalActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="Cuenta">
               <Properties>
@@ -209,18 +208,9 @@
                 <Property name="text" type="java.lang.String" value="Cuenta"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
-            </Component>
-            <Component class="javax.swing.JButton" name="Pagos">
-              <Properties>
-                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                </Property>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="0" green="85" red="fb" type="rgb"/>
-                </Property>
-                <Property name="text" type="java.lang.String" value="Pagos"/>
-                <Property name="horizontalAlignment" type="int" value="2"/>
-              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CuentaActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="Notificaciones">
               <Properties>
@@ -233,6 +223,9 @@
                 <Property name="text" type="java.lang.String" value="Notificaciones"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NotificacionesActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="Reservaciones">
               <Properties>
@@ -245,6 +238,9 @@
                 <Property name="text" type="java.lang.String" value="Reservaciones"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ReservacionesActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="Visitas">
               <Properties>
@@ -257,6 +253,9 @@
                 <Property name="text" type="java.lang.String" value="Visitas"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="VisitasActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="Quejas">
               <Properties>
@@ -269,6 +268,9 @@
                 <Property name="text" type="java.lang.String" value="Quejas y reclamos"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="QuejasActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="Configuracion">
               <Properties>
@@ -281,6 +283,9 @@
                 <Property name="text" type="java.lang.String" value="Configuracion"/>
                 <Property name="horizontalAlignment" type="int" value="2"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ConfiguracionActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>

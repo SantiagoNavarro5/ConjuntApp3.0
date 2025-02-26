@@ -31,7 +31,7 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+          <Component id="jPanel1" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -49,9 +49,8 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
                   <Component id="PanelPagina" max="32767" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanel2" max="32767" attributes="0"/>
               </Group>
               <Component id="Titulo" max="32767" attributes="0"/>
           </Group>
@@ -59,11 +58,14 @@
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
-                  <Component id="Titulo" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="Titulo" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jPanel2" max="32767" attributes="0"/>
+                          <EmptySpace min="14" pref="14" max="-2" attributes="0"/>
+                      </Group>
                       <Component id="PanelPagina" max="32767" attributes="0"/>
-                      <Component id="jPanel2" max="32767" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -80,12 +82,12 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="392" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="359" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
@@ -103,7 +105,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="Logo" min="-2" pref="58" max="-2" attributes="0"/>
                       <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel2" pref="102" max="32767" attributes="0"/>
+                      <Component id="jLabel2" max="32767" attributes="0"/>
                       <EmptySpace min="-2" pref="403" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -149,44 +151,42 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="PaginaPrincipal" alignment="0" max="32767" attributes="0"/>
-                          <Component id="Cuentas" alignment="0" max="32767" attributes="0"/>
-                          <Component id="AvisosGeneral" alignment="0" max="32767" attributes="0"/>
-                          <Component id="AvisoPersonal" alignment="0" max="32767" attributes="0"/>
-                          <Component id="Quejas" alignment="0" pref="177" max="32767" attributes="0"/>
-                          <Component id="Visitas" alignment="0" max="32767" attributes="0"/>
-                          <Component id="Reservaciones" alignment="0" max="32767" attributes="0"/>
-                          <Component id="Domicilios" alignment="0" max="32767" attributes="0"/>
-                          <Component id="Configuración" alignment="0" max="32767" attributes="0"/>
+                          <Component id="Configuración" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Domicilios" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Reservaciones" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Visitas" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Quejas" alignment="1" max="32767" attributes="0"/>
+                          <Component id="AvisoPersonal" alignment="1" max="32767" attributes="0"/>
+                          <Component id="AvisosGeneral" alignment="1" max="32767" attributes="0"/>
+                          <Component id="Cuentas" alignment="1" max="32767" attributes="0"/>
+                          <Component id="PaginaPrincipal" alignment="1" max="32767" attributes="0"/>
                       </Group>
-                      <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="PaginaPrincipal" pref="24" max="32767" attributes="0"/>
+                      <Component id="PaginaPrincipal" max="32767" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="Cuentas" pref="24" max="32767" attributes="0"/>
+                      <Component id="Cuentas" max="32767" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="AvisosGeneral" pref="24" max="32767" attributes="0"/>
+                      <Component id="AvisosGeneral" max="32767" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="AvisoPersonal" pref="24" max="32767" attributes="0"/>
+                      <Component id="AvisoPersonal" max="32767" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="Quejas" pref="24" max="32767" attributes="0"/>
+                      <Component id="Quejas" max="32767" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="Visitas" pref="24" max="32767" attributes="0"/>
+                      <Component id="Visitas" max="32767" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="Reservaciones" pref="24" max="32767" attributes="0"/>
+                      <Component id="Reservaciones" max="32767" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="Domicilios" pref="24" max="32767" attributes="0"/>
+                      <Component id="Domicilios" max="32767" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="Configuración" pref="27" max="32767" attributes="0"/>
-                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                      <Component id="Configuración" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
