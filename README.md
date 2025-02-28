@@ -1,4 +1,5 @@
-Nuestro proyecto se llama ConjuntApp, este esta explicado por (Aqui va el link del documento) y tambien se muestra en el video a continuacion: (Link del video)
+Nuestro proyecto se llama ConjuntApp, este esta explicado por https://docs.google.com/document/d/12kqO9EtM2IoaATmvy5R2k7FUofSLCBqTzLf4bp33JD0/edit?tab=t.0
+Tambien se muestra en el video a continuacion: (Link del video)
 
 ![image](https://github.com/user-attachments/assets/4f41cd1a-1ed0-44ba-a6af-ba9f0417f24d)
 
