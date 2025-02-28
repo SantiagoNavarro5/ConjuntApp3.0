@@ -1,4 +1,6 @@
-Nuestro proyecto se llama ConjuntApp, este esta explicado por https://docs.google.com/document/d/12kqO9EtM2IoaATmvy5R2k7FUofSLCBqTzLf4bp33JD0/edit?tab=t.0
+Nuestro proyecto se llama ConjuntApp, somos Santiago Navarro, Aljandra Carreño y Alejandro Serna
+
+El proyecto esta explicado por https://docs.google.com/document/d/12kqO9EtM2IoaATmvy5R2k7FUofSLCBqTzLf4bp33JD0/edit?tab=t.0
 
 Tambien se muestra en el video a continuacion: (Link del video)
 
