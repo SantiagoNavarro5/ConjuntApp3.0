@@ -205,6 +205,7 @@ public class FrameCrearCuenta extends javax.swing.JFrame {
     }//GEN-LAST:event_jPanel1AncestorResized
     
 
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField Apartamento;
     private javax.swing.JTextField Confirmar;

@@ -105,8 +105,14 @@
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JLabel" name="Titulo1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Microondas"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="Contenido1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Envio por parte de Manuel Pe&#xf1;a"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>
@@ -137,8 +143,14 @@
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JLabel" name="Mes1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="06"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="Dia1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="25"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>
@@ -172,8 +184,14 @@
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JLabel" name="Titulo2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Televisor"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="Contenido2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Envio por TeleCom"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>
@@ -204,8 +222,14 @@
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JLabel" name="Mes2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="6"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="Dia2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="18"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>

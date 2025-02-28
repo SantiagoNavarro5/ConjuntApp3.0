@@ -16,26 +16,29 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
-              <Component id="jLabel1" pref="0" max="32767" attributes="0"/>
-              <EmptySpace min="-2" pref="302" max="-2" attributes="0"/>
-          </Group>
           <Group type="102" attributes="0">
-              <EmptySpace min="22" pref="22" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="Panel1" min="-2" max="-2" attributes="0"/>
-                  </Group>
                   <Group type="102" attributes="0">
-                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="Panel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="22" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Panel1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Panel4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="205" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace pref="48" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -68,7 +71,7 @@
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ae" green="99" red="8d" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Quejas"/>
+        <Property name="text" type="java.lang.String" value="Quejas y reclamos"/>
       </Properties>
     </Component>
     <Container class="javax.swing.JPanel" name="Panel1">
@@ -107,8 +110,14 @@
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JLabel" name="Titulo1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fallo en la luz"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="Contenido1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Se fue la luz hace varios dias y requiero un corte de luz "/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>
@@ -142,8 +151,14 @@
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="6"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="25"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>
@@ -177,8 +192,14 @@
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="6"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="18"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>
@@ -218,8 +239,14 @@
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JLabel" name="Titulo4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pagos"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="Contenido4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="No me ha llegado el resivo de pago de este mes"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>

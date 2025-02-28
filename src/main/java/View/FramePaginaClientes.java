@@ -297,7 +297,7 @@ public class FramePaginaClientes extends javax.swing.JFrame {
         PanelPagina.repaint();
     }//GEN-LAST:event_ConfiguracionActionPerformed
 
-
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Configuracion;
     private javax.swing.JButton Cuenta;

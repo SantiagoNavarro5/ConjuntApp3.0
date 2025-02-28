@@ -335,7 +335,6 @@ public class FramePaginaAdmin extends javax.swing.JFrame {
         PanelPagina.repaint();
     }//GEN-LAST:event_QuejasActionPerformed
     
-    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton AvisoPersonal;

@@ -52,7 +52,11 @@ public class PanelVisitasCliente extends javax.swing.JPanel {
 
         jLabel2.setText("Visitas ingresadas:");
 
+        NumeroVisitas.setText("14");
+
         jLabel3.setText("Vehiculos registrados:");
+
+        jLabel4.setText("5");
 
         javax.swing.GroupLayout Panel2Layout = new javax.swing.GroupLayout(Panel2);
         Panel2.setLayout(Panel2Layout);

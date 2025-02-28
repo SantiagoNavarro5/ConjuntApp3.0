@@ -8,6 +8,7 @@ public class FrameSplashScreen extends javax.swing.JFrame {
 
     public FrameSplashScreen() {
         initComponents();
+        ajustarImagenLabel();
         this.setLocationRelativeTo(null);
         
         new Thread(() -> {
@@ -69,7 +70,18 @@ public class FrameSplashScreen extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+    
+    public void ajustarImagenLabel() {
+    // Cargar la imagen
+    ImageIcon iconoOriginal = new ImageIcon(getClass().getResource("/main/java/LlaveFondoBlanco.png"));
+    // Escalar la imagen al tamaño del JLabel
+    Image imagenEscalada = iconoOriginal.getImage().getScaledInstance(jLabel1.getWidth(), jLabel1.getHeight(), Image.SCALE_SMOOTH);
+    // Crear un nuevo ImageIcon con la imagen redimensionada
+    ImageIcon iconoRedimensionado = new ImageIcon(imagenEscalada);
+    // Establecer la imagen en el JLabel
+    jLabel1.setIcon(iconoRedimensionado);
+    }
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;

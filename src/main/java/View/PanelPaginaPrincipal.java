@@ -32,7 +32,10 @@ public class PanelPaginaPrincipal extends javax.swing.JPanel {
 
         Panel1.setBackground(new java.awt.Color(200, 200, 200));
 
+        Contenido1.setText("Se cierran canchas por mantenimiento");
+
         Titulo1.setBackground(new java.awt.Color(245, 83, 34));
+        Titulo1.setText("Cierre canchas");
 
         javax.swing.GroupLayout Panel1Layout = new javax.swing.GroupLayout(Panel1);
         Panel1.setLayout(Panel1Layout);
@@ -54,6 +57,10 @@ public class PanelPaginaPrincipal extends javax.swing.JPanel {
 
         jPanel1.setBackground(new java.awt.Color(141, 153, 174));
 
+        Mes1.setText("6");
+
+        Dia1.setText("25");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -71,6 +78,10 @@ public class PanelPaginaPrincipal extends javax.swing.JPanel {
         );
 
         jPanel2.setBackground(new java.awt.Color(141, 153, 174));
+
+        Mes2.setText("6");
+
+        Dia2.setText("18");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -90,7 +101,10 @@ public class PanelPaginaPrincipal extends javax.swing.JPanel {
 
         Panel2.setBackground(new java.awt.Color(200, 200, 200));
 
+        Contenido2.setText("Se han agregado bicicleteros en la zona norte");
+
         Titulo2.setBackground(new java.awt.Color(245, 83, 34));
+        Titulo2.setText("Nuevos bicicleteros");
 
         javax.swing.GroupLayout Panel2Layout = new javax.swing.GroupLayout(Panel2);
         Panel2.setLayout(Panel2Layout);

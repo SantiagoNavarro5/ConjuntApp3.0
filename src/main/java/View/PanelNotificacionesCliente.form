@@ -22,14 +22,14 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <EmptySpace pref="30" max="32767" attributes="0"/>
+              <EmptySpace pref="16" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <Component id="jLabel1" min="-2" pref="155" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="210" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Group type="102" attributes="0">
                               <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -38,7 +38,7 @@
                           <Group type="102" attributes="0">
                               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="Panel1" min="-2" max="-2" attributes="0"/>
+                              <Component id="Panel1" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
@@ -92,7 +92,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="Titulo1" min="-2" pref="150" max="-2" attributes="0"/>
-                  <EmptySpace pref="124" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -108,8 +108,14 @@
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JLabel" name="Titulo1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Recorte del agua"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="Contenido1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Se recorta el agua este lunes por arreglos en la entrada"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>
@@ -151,10 +157,16 @@
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JLabel" name="Dia1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="25"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
         </Component>
         <Component class="javax.swing.JLabel" name="Mes1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="6"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>
@@ -172,7 +184,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="Titulo2" min="-2" pref="150" max="-2" attributes="0"/>
-                  <EmptySpace pref="124" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -188,8 +200,14 @@
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JLabel" name="Titulo2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Pago pendiente"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="Contenido2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Debe el valor por entrada a gimnasi, se le estara comunicando"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>
@@ -231,10 +249,16 @@
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JLabel" name="Dia2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="18"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel4">
         </Component>
         <Component class="javax.swing.JLabel" name="Mes2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="6"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>

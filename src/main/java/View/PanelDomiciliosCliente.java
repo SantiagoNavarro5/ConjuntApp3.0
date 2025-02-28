@@ -33,6 +33,10 @@ public class PanelDomiciliosCliente extends javax.swing.JPanel {
 
         jPanel1.setBackground(new java.awt.Color(200, 200, 200));
 
+        Titulo1.setText("Microondas");
+
+        Contenido1.setText("Envio por parte de Manuel Peña");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -53,6 +57,10 @@ public class PanelDomiciliosCliente extends javax.swing.JPanel {
 
         jPanel2.setBackground(new java.awt.Color(141, 153, 174));
 
+        Mes1.setText("06");
+
+        Dia1.setText("25");
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -70,6 +78,10 @@ public class PanelDomiciliosCliente extends javax.swing.JPanel {
         );
 
         jPanel3.setBackground(new java.awt.Color(200, 200, 200));
+
+        Titulo2.setText("Televisor");
+
+        Contenido2.setText("Envio por TeleCom");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -90,6 +102,10 @@ public class PanelDomiciliosCliente extends javax.swing.JPanel {
         );
 
         jPanel4.setBackground(new java.awt.Color(141, 153, 174));
+
+        Mes2.setText("6");
+
+        Dia2.setText("18");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
